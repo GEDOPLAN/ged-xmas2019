@@ -23,9 +23,12 @@ export class VisuellDragDirective implements AfterViewInit {
 
   @HostListener('drag', ['$event'])
   moveBall(event: DragEvent) {
-    if (event.clientY && event.clientX) {
-      this.top = event.clientY - this.startTop + 'px';
-      this.left = event.clientX - this.startLeft + 'px';
+    const y = document['___PAGEY'];
+    const x = document['___PAGEX'];
+
+    if (y && x) {
+      this.top = y - this.startTop + 'px';
+      this.left = x - this.startLeft + 'px';
     }
   }
 
