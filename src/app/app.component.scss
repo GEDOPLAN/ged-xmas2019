@@ -1,0 +1,15 @@
+div.tree {
+  width: 1280px;
+  height: 814px;
+  border: 1px solid black;
+  background-image: url('../assets/tree.jpg'), url('../assets/tree_greet.jpg');
+
+  img {
+    position: absolute;
+    left: 20px;
+  }
+
+  &.xmas {
+    background-image: url('../assets/tree_greet.jpg');
+  }
+}

@@ -1,0 +1,4 @@
+<div class="tree" [class.xmas]="readyForChristmas">
+  <img [src]="'assets/'+ball.file" [alt]="'Ball ' + i" *ngFor="let ball of balls;let i=index" draggable="true"
+    [style.top]="i*100+'px'" (placed)="ballPlaced($event, ball)" />
+</div>
