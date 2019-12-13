@@ -10,8 +10,7 @@ GEDOPLAN wünscht frohe Weihnachten
 
 ## Live
 
-blabla
-
+[https://gedoplan.github.io/ged-xmas2019/](https://gedoplan.github.io/ged-xmas2019/)
 ---
 
 ## Author
