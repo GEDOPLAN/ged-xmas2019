@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { VisuellDragDirective } from './visuell-drag.directive';
-import { type } from 'os';
-
 @Component({
   selector: 'ged-root',
   templateUrl: './app.component.html',
